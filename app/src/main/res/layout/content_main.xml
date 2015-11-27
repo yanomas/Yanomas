@@ -48,7 +48,7 @@
         android:inputType="textMultiLine"
         android:ems="10"
         android:maxLength="500"
-        android:id="@+id/ContenidoEP"
+        android:id="@+id/etContenidoEP"
         android:layout_below="@+id/etTituloEP"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -60,19 +60,21 @@
         android:layout_height="wrap_content"
         android:text="Seleccioné un Avatar"
         android:id="@+id/textView2"
-        android:layout_below="@+id/ContenidoEP"
+        android:layout_below="@+id/etContenidoEP"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp" />
 
     <ImageButton
+        android:background="@drawable/avatar_uno"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton1"
         android:layout_alignTop="@+id/imageButton2"
         android:layout_toLeftOf="@+id/imageButton2"
         android:layout_toStartOf="@+id/imageButton2" />
 
     <ImageButton
+        android:background="@drawable/avatar_dos"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:id="@+id/imageButton2"
@@ -81,6 +83,7 @@
         android:layout_toStartOf="@+id/imageButton3" />
 
     <ImageButton
+        android:background="@drawable/avatar_tres"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:id="@+id/imageButton3"
@@ -90,11 +93,25 @@
         android:layout_marginTop="25dp" />
 
     <ImageButton
+        android:background="@drawable/avatar_cuatro"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:id="@+id/imageButton4"
         android:layout_alignTop="@+id/imageButton3"
         android:layout_toRightOf="@+id/textView2"
         android:layout_toEndOf="@+id/textView2" />
+
+    <Button
+        android:background="#2196F3"
+        android:textColor="#FFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:id="@+id/bPublicar"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/imageButton4"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
 
 </RelativeLayout>
