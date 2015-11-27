@@ -8,6 +8,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
 
 import yanomas.android.gt.myapplication.R;
 
@@ -19,6 +22,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        iniciaVars();
+
+    }
+
+    private void iniciaVars() {
+
+        EditText etNicknameEP = (EditText)findViewById(R.id.etNicknameEP);
+        EditText etTituloEP=(EditText)findViewById(R.id.etTituloEP);
+        EditText etContenido=(EditText)findViewById(R.id.etContenidoEP);
+
+
+
+        Button   bPublicar = (Button)findViewById(R.id.bPublicar);
+
+
+
+
 
     }
 
