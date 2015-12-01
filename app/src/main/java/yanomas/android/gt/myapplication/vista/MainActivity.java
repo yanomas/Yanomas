@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setSupportActionBar(toolbar);
         iniciaVars();
 
-        //pablo
     }
 
     private void iniciaVars() {
